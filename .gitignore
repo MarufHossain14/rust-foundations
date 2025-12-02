@@ -1,0 +1,78 @@
+# Rust build artifacts
+target/
+**/*.rs.bk
+*.pdb
+
+# Cargo
+# Note: Cargo.lock should be committed for applications, but ignored for libraries
+# Uncomment the next line if you're building a library:
+# Cargo.lock
+
+# Rust-analyzer
+.rust-analyzer/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# RustRover / IntelliJ Rust
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.dll.a
+
+# Executables without extensions (from rustc compilation)
+main
+**/main
+*.out
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Test artifacts
+*.test
+*.profdata
+
+# Documentation
+/doc/
+/target/doc/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Coverage reports
+tarpaulin-report.html
+cobertura.xml
+lcov.info
+
+# Benchmark results
+criterion/
+
+# Flamegraph output
+*.svg
+flamegraph.svg
