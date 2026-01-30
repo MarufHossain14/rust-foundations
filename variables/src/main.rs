@@ -11,7 +11,7 @@ fn main(){
 
 /*
 shadowing example:
-shadowing creates a new versiona nd replaces the old one.
+shadowing creates a new version and replaces the old one.
 the old one gets lost, and the ne wone is a different variable.
 fn main() {
     let x = 10;      // first x
